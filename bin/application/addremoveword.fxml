@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="429.0" prefWidth="534.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.AddRemoveController">
+   <children>
+      <TextField fx:id="addField" layoutX="14.0" layoutY="32.0" prefHeight="25.0" prefWidth="235.0" promptText="Từ cần thêm..." />
+      <TextField fx:id="pronounceField" layoutX="14.0" layoutY="70.0" prefHeight="25.0" prefWidth="235.0" promptText="Phát âm...">
+         <font>
+            <Font name="System Italic" size="12.0" />
+         </font>
+      </TextField>
+      <TextArea fx:id="meaningArea" layoutX="14.0" layoutY="115.0" prefHeight="217.0" prefWidth="235.0" promptText="Nghĩa của từ" />
+      <Button fx:id="addButton" layoutX="93.0" layoutY="346.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="78.0" text="Thêm từ" />
+      <TextField fx:id="removeField" layoutX="279.0" layoutY="32.0" prefHeight="25.0" prefWidth="235.0" promptText="Từ cần xóa..." />
+      <Button fx:id="removeButton" layoutX="354.0" layoutY="80.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="85.0" text="Xóa từ" />
+      <TextArea fx:id="notiArea" layoutX="279.0" layoutY="217.0" prefHeight="115.0" prefWidth="200.0" />
+   </children>
+</AnchorPane>

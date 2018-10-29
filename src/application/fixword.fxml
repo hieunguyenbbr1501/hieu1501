@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="407.0" prefWidth="516.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.FixController">
+   <children>
+      <TextField fx:id="searchField" layoutX="21.0" layoutY="41.0" prefHeight="25.0" prefWidth="200.0" promptText="Nhập từ cần sửa vào đây...">
+         <font>
+            <Font name="System Italic" size="12.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="pronounceField" layoutX="21.0" layoutY="83.0" prefHeight="25.0" prefWidth="200.0" promptText="Phát âm..." />
+      <TextArea fx:id="meaningArea" layoutX="21.0" layoutY="125.0" prefHeight="200.0" prefWidth="200.0" promptText="Nghĩa của từ..." />
+      <Button fx:id="fixButton" layoutX="76.0" layoutY="340.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="63.0" text="Sửa" />
+      <TextArea fx:id="notiArea" layoutX="273.0" layoutY="80.0" prefHeight="245.0" prefWidth="200.0" />
+   </children>
+</AnchorPane>

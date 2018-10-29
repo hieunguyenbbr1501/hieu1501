@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="con" path="org.eclipse.fx.ide.jdt.core.JAVAFX_CONTAINER"/>
+	<classpathentry kind="lib" path="C:/Users/admin/Desktop/dictionary FX/lib/controlsfx-9.0.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/admin/Desktop/dictionary FX/lib/Marry TTS/guava-22.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/admin/Desktop/dictionary FX/lib/Marry TTS/marytts-builder-5.2-jar-with-dependencies.jar"/>
+	<classpathentry kind="lib" path="C:/Users/admin/Desktop/dictionary FX/lib/Marry TTS/marytts-lang-en-5.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/admin/Desktop/dictionary FX/lib/Marry TTS/voice-cmu-rms-hsmm-5.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/admin/Desktop/dictionary FX/lib/Marry TTS/voice-cmu-slt-hsmm-5.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/admin/Desktop/dictionary FX/lib/Marry TTS/voice-dfki-poppy-hsmm-5.2.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
